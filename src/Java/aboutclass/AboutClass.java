@@ -23,5 +23,7 @@ public class AboutClass {
         bmw.accelerate();
         bmw.accelerate();
         bmw.parking();
+        bmw.fillUp();
+        audi.fillUp();
     }
 }

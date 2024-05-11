@@ -33,7 +33,7 @@ public class Car {
         this.currentSpeed = 0;
     }
 
-    public void fillUp(String fuelType) {
+    public void fillUp() {
         if (fuelType.equals("gasoline")) {
             System.out.println("휘발유를 주입합니다.");
         } else if (fuelType.equals("diesel")){
