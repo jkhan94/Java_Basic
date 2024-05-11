@@ -3,7 +3,7 @@ package Java.aboutclass;
 public class AboutClass {
     public static void main(String[] args) {
         // 인스턴스 : student1 메모리 상에 올라가는 객체
- /*       Student student1 = new Student();
+        Student student1 = new Student();
         System.out.println(student1.id);
 
         Student student2 = new Student(1, "A", 30, "Java");
@@ -14,7 +14,7 @@ public class AboutClass {
         student3.eatLunch(); // B는 먹는중
 
         student2=student3; // 2에 3을 덮어쓴다.
-        student2.eatLunch(); // B는 먹는중*/
+        student2.eatLunch(); // B는 먹는중
 
         Car bmw = new Car("red", "BMW", 300, 0, "gasoline");
         Car audi = new Car("red", "AUDI", 300, 0, "diesel");
